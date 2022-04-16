@@ -1,0 +1,145 @@
+
+.navbar{
+    background: #8FD0C1;
+}
+.navbar a {
+    color: #EFF8F6;
+}
+.navbar a:hover{
+    color: #73a896;
+}
+.main-content > .container{
+    background: #fff;
+    border-radius: 10px;
+}
+.user{
+    background: #EFF8F6;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+}
+.avatar{
+    background: #fff;
+    width:82px;
+    height: 82px;
+    border-radius: 50%;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.user-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 400px;
+}
+.user-content span{
+    color:#8FD0C1;
+}
+
+.user-about{
+    max-width: 400px;
+    flex-wrap: wrap-reverse;
+}
+.location{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.user{
+    display: flex;
+}
+.female{
+    display: none;
+}
+.male{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.card{
+    justify-content: space-between;
+}
+.form-select{
+    max-width: 400px;
+    max-height: 50px;
+    cursor: pointer;
+}
+.cityFilter{
+    display: none;
+}
+.input-group .btn{
+    color:#8FD0C1;   
+}
+.input-group input{
+    border: none;
+}
+.form-check-input:checked{
+    background-color: #8FD0C1 !important;
+    border-color: #8FD0C1 !important ;
+}
+
+
+
+input[type="text"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+select[type="select"]:focus{
+    border-color: white;
+    box-shadow: none;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    bottom: 5%;
+    right:5%;
+    position: fixed;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: #fff;
+    box-shadow: none;
+}
+.review:hover{
+    background: rgb(235, 250, 243);
+    border: 1px solid #8FD0C1
+}
+.review:active{
+    background: #fff;
+}
+.modal-title{
+    width: 100%;
+    text-align: center;
+    background: #8FD0C1;
+    padding: 0;
+}
+.modal-header{
+    background: #8FD0C1;
+}
+.modal-body{
+    height: 500px;
+}
+.comment{
+    width: 85%;
+}
+.reviewInput{
+    width: 100%;
+}
+.send-button{
+    cursor: pointer;
+}
+.review-content{
+    align-items: center;
+}
+.review-content .avatar{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
